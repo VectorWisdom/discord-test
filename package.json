@@ -1,0 +1,16 @@
+{
+  "name": "discord-test",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "example Discord API usage for custom search and classification",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wassfila",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
