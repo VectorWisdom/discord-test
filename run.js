@@ -27,7 +27,7 @@ const fetchMessages = async (channelId) => {
 
     const raw_messages = await channel.messages.fetch();
     const messages = raw_messages.map(message=> message.cleanContent)
-    await save_json(messages,'messages.json')
+    await save_json(messages,`messages/${channel.name}-${channelId}.json`)
 };
 
 client.once('ready', () => {
